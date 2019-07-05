@@ -1,29 +1,19 @@
 # products-frontend2
 
 ## Project setup
-```
-yarn install
-```
+
+1. Copy `.env.example` file to `.env` and set the backend api url value
+2. Run `yarn install`
+3. Run `yarn serve` for development or `yarn build` for production
 
 ### Compiles and hot-reloads for development
-```
+
+```bash
 yarn run serve
 ```
 
 ### Compiles and minifies for production
-```
+
+```bash
 yarn run build
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
